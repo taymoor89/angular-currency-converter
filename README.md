@@ -33,9 +33,9 @@ Start karma test runner server
 ```
 See the unit test reports in
 ```shell
-karma_html/report-summary-filename
+cd karma_html/report-summary-filename
 ```
-open this html file in browser
+Open index.html file in browser
 
 [fixerIo]: http://fixer.io/
 [liteServer]: https://github.com/johnpapa/lite-server
