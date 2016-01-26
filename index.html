@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="fxApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div>
+            <h2>Angular Currency Converter</h2>
+            <h4>Powered by <a href="http://fixer.io">fixer.io</a></h4>
+        </div>
+    </div>
+    <div class="row">
+        <div ng-view> <h1>Awesome is loading...</h1></div>
+    </div>
+</div> <!-- /container -->
+
+<!-- Library scripts -->
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/lodash/lodash.js"></script>
+<script src="node_modules/angular/angular.js"></script>
+<script src="node_modules/angular-route/angular-route.js"></script>
+
+<!-- Application scripts -->
+<script src="app/currency-converter/main.js"></script>
+<script src="app/currency-converter/converter-controller.js"></script>
+<script src="app/currency-converter/converter-service.js"></script>
+
+<script src="app/utils/lodash-module.js"></script>
+
+<script src="app/app.js"></script>
+
+</body>
+</html>
